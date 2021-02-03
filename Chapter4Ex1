@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+	char surename[20], name[20];
+	printf("Enter your surename and name:");
+	scanf("%s %s", surename, name);
+	printf("%s, %s", surename, name);
+
+	return 0;
+}
